@@ -103,6 +103,7 @@
                     <contextFile>${project.build.directory}/${project.build.finalName}/META-INF/context.xml</contextFile>
                 </configuration>
             </plugin>
+          
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
