@@ -1,13 +1,13 @@
 package com.safi.apps.pms.model; // Adjust package based on your structure
 
-public class Brand {
+public class BrandModel {
     private String name; // This field will map to the "name" in your JSON
 
     // No-argument constructor is REQUIRED for JSON deserialization
-    public Brand() {
+    public BrandModel() {
     }
 
-    public Brand(String name) {
+    public BrandModel(String name) {
         this.name = name;
     }
 

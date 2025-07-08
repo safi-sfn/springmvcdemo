@@ -1,11 +1,11 @@
 
-package com.safi.apps.pms.dao;
+package com.safi.apps.pms.repository;
 
 /**
  *
  * @author safi
  */
-public interface IPmsManager {
+public interface IPmsBrandRepo {
     
     public int addBrand(String brandName);
 }

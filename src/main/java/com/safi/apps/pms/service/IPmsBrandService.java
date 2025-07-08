@@ -8,7 +8,7 @@ package com.safi.apps.pms.service;
  *
  * @author safi
  */
-public interface IPmsService {
+public interface IPmsBrandService {
     
      public boolean addBrand(String brandName);
 }

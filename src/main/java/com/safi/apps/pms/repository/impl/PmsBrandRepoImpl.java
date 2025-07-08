@@ -1,6 +1,5 @@
-package com.safi.apps.pms.dao.impl;
+package com.safi.apps.pms.repository.impl;
 
-import com.safi.apps.pms.dao.IPmsManager;
 import com.safi.util.MySqlUtil;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -8,13 +7,14 @@ import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import com.safi.apps.pms.repository.IPmsBrandRepo;
 
 /**
  *
  * @author safi
  */
 @Repository
-public class PmsManagerImpl implements IPmsManager {
+public class PmsBrandRepoImpl implements IPmsBrandRepo {
 
     private final MySqlUtil sqlUtil;
 
@@ -23,7 +23,7 @@ public class PmsManagerImpl implements IPmsManager {
      * @param jdbcTemplateUtil The MySqlUtil instance.
      */
     @Autowired
-    public PmsManagerImpl(MySqlUtil sqlUtil) {
+    public PmsBrandRepoImpl(MySqlUtil sqlUtil) {
         this.sqlUtil = sqlUtil;
     }
     

@@ -3,19 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.safi.apps.pms.service.impl;
-import com.safi.apps.pms.dao.IPmsManager;
-import com.safi.apps.pms.service.IPmsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.safi.apps.pms.repository.IPmsBrandRepo;
+import com.safi.apps.pms.service.IPmsBrandService;
 /**
  *
  * @author safi
  */
 @Service
-public class PmsServiceImpl implements IPmsService {
+public class PmsBrandServiceImpl implements IPmsBrandService {
 
      @Autowired
-    IPmsManager manager;
+    IPmsBrandRepo manager;
      
     
     @Override
